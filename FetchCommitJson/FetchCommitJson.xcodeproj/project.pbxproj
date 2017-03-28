@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD543AF1E88AD4B00749A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543AE1E88AD4B00749A75 /* main.m */; };
+		5AD543B21E88AD4B00749A75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543B11E88AD4B00749A75 /* AppDelegate.m */; };
+		5AD543B81E88AD4B00749A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD543B61E88AD4B00749A75 /* Main.storyboard */; };
+		5AD543BA1E88AD4B00749A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD543B91E88AD4B00749A75 /* Assets.xcassets */; };
+		5AD543BD1E88AD4B00749A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD543BB1E88AD4B00749A75 /* LaunchScreen.storyboard */; };
+		5AD543C81E88AD4B00749A75 /* FetchCommitJsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543C71E88AD4B00749A75 /* FetchCommitJsonTests.m */; };
+		5AD543D31E88AD4B00749A75 /* FetchCommitJsonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543D21E88AD4B00749A75 /* FetchCommitJsonUITests.m */; };
+		5AD543E21E88ADAD00749A75 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543E11E88ADAD00749A75 /* TableViewController.m */; };
+		5AD543E51E88AF0500749A75 /* CommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543E41E88AF0500749A75 /* CommitCell.m */; };
+		5AD543E81E88BA7900749A75 /* CommitObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543E71E88BA7900749A75 /* CommitObject.m */; };
+		5AD543EE1E89EACE00749A75 /* SpringBoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD543ED1E89EACE00749A75 /* SpringBoot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD543C41E88AD4B00749A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD543A21E88AD4B00749A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD543A91E88AD4B00749A75;
+			remoteInfo = FetchCommitJson;
+		};
+		5AD543CF1E88AD4B00749A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD543A21E88AD4B00749A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD543A91E88AD4B00749A75;
+			remoteInfo = FetchCommitJson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD543AA1E88AD4B00749A75 /* FetchCommitJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchCommitJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD543AE1E88AD4B00749A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AD543B01E88AD4B00749A75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AD543B11E88AD4B00749A75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AD543B71E88AD4B00749A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD543B91E88AD4B00749A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD543BC1E88AD4B00749A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AD543BE1E88AD4B00749A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD543C31E88AD4B00749A75 /* FetchCommitJsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchCommitJsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD543C71E88AD4B00749A75 /* FetchCommitJsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchCommitJsonTests.m; sourceTree = "<group>"; };
+		5AD543C91E88AD4B00749A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD543CE1E88AD4B00749A75 /* FetchCommitJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchCommitJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD543D21E88AD4B00749A75 /* FetchCommitJsonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchCommitJsonUITests.m; sourceTree = "<group>"; };
+		5AD543D41E88AD4B00749A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD543E01E88ADAD00749A75 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		5AD543E11E88ADAD00749A75 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		5AD543E31E88AF0500749A75 /* CommitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitCell.h; sourceTree = "<group>"; };
+		5AD543E41E88AF0500749A75 /* CommitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitCell.m; sourceTree = "<group>"; };
+		5AD543E61E88BA7900749A75 /* CommitObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitObject.h; sourceTree = "<group>"; };
+		5AD543E71E88BA7900749A75 /* CommitObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitObject.m; sourceTree = "<group>"; };
+		5AD543EC1E89EACE00749A75 /* SpringBoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringBoot.h; sourceTree = "<group>"; };
+		5AD543ED1E89EACE00749A75 /* SpringBoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringBoot.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD543A71E88AD4B00749A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD543C01E88AD4B00749A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD543CB1E88AD4B00749A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD543A11E88AD4B00749A75 = {
+			isa = PBXGroup;
+			children = (
+				5AD543AC1E88AD4B00749A75 /* FetchCommitJson */,
+				5AD543C61E88AD4B00749A75 /* FetchCommitJsonTests */,
+				5AD543D11E88AD4B00749A75 /* FetchCommitJsonUITests */,
+				5AD543AB1E88AD4B00749A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD543AB1E88AD4B00749A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD543AA1E88AD4B00749A75 /* FetchCommitJson.app */,
+				5AD543C31E88AD4B00749A75 /* FetchCommitJsonTests.xctest */,
+				5AD543CE1E88AD4B00749A75 /* FetchCommitJsonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD543AC1E88AD4B00749A75 /* FetchCommitJson */ = {
+			isa = PBXGroup;
+			children = (
+				5AD543E01E88ADAD00749A75 /* TableViewController.h */,
+				5AD543E11E88ADAD00749A75 /* TableViewController.m */,
+				5AD543E31E88AF0500749A75 /* CommitCell.h */,
+				5AD543E41E88AF0500749A75 /* CommitCell.m */,
+				5AD543B01E88AD4B00749A75 /* AppDelegate.h */,
+				5AD543B11E88AD4B00749A75 /* AppDelegate.m */,
+				5AD543B61E88AD4B00749A75 /* Main.storyboard */,
+				5AD543E61E88BA7900749A75 /* CommitObject.h */,
+				5AD543E71E88BA7900749A75 /* CommitObject.m */,
+				5AD543EC1E89EACE00749A75 /* SpringBoot.h */,
+				5AD543ED1E89EACE00749A75 /* SpringBoot.m */,
+				5AD543B91E88AD4B00749A75 /* Assets.xcassets */,
+				5AD543BB1E88AD4B00749A75 /* LaunchScreen.storyboard */,
+				5AD543BE1E88AD4B00749A75 /* Info.plist */,
+				5AD543AD1E88AD4B00749A75 /* Supporting Files */,
+			);
+			path = FetchCommitJson;
+			sourceTree = "<group>";
+		};
+		5AD543AD1E88AD4B00749A75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD543AE1E88AD4B00749A75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD543C61E88AD4B00749A75 /* FetchCommitJsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD543C71E88AD4B00749A75 /* FetchCommitJsonTests.m */,
+				5AD543C91E88AD4B00749A75 /* Info.plist */,
+			);
+			path = FetchCommitJsonTests;
+			sourceTree = "<group>";
+		};
+		5AD543D11E88AD4B00749A75 /* FetchCommitJsonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD543D21E88AD4B00749A75 /* FetchCommitJsonUITests.m */,
+				5AD543D41E88AD4B00749A75 /* Info.plist */,
+			);
+			path = FetchCommitJsonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD543A91E88AD4B00749A75 /* FetchCommitJson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD543D71E88AD4B00749A75 /* Build configuration list for PBXNativeTarget "FetchCommitJson" */;
+			buildPhases = (
+				5AD543A61E88AD4B00749A75 /* Sources */,
+				5AD543A71E88AD4B00749A75 /* Frameworks */,
+				5AD543A81E88AD4B00749A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FetchCommitJson;
+			productName = FetchCommitJson;
+			productReference = 5AD543AA1E88AD4B00749A75 /* FetchCommitJson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AD543C21E88AD4B00749A75 /* FetchCommitJsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD543DA1E88AD4B00749A75 /* Build configuration list for PBXNativeTarget "FetchCommitJsonTests" */;
+			buildPhases = (
+				5AD543BF1E88AD4B00749A75 /* Sources */,
+				5AD543C01E88AD4B00749A75 /* Frameworks */,
+				5AD543C11E88AD4B00749A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD543C51E88AD4B00749A75 /* PBXTargetDependency */,
+			);
+			name = FetchCommitJsonTests;
+			productName = FetchCommitJsonTests;
+			productReference = 5AD543C31E88AD4B00749A75 /* FetchCommitJsonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AD543CD1E88AD4B00749A75 /* FetchCommitJsonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD543DD1E88AD4B00749A75 /* Build configuration list for PBXNativeTarget "FetchCommitJsonUITests" */;
+			buildPhases = (
+				5AD543CA1E88AD4B00749A75 /* Sources */,
+				5AD543CB1E88AD4B00749A75 /* Frameworks */,
+				5AD543CC1E88AD4B00749A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD543D01E88AD4B00749A75 /* PBXTargetDependency */,
+			);
+			name = FetchCommitJsonUITests;
+			productName = FetchCommitJsonUITests;
+			productReference = 5AD543CE1E88AD4B00749A75 /* FetchCommitJsonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD543A21E88AD4B00749A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Abdul Haziq";
+				TargetAttributes = {
+					5AD543A91E88AD4B00749A75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5AD543C21E88AD4B00749A75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AD543A91E88AD4B00749A75;
+					};
+					5AD543CD1E88AD4B00749A75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AD543A91E88AD4B00749A75;
+					};
+				};
+			};
+			buildConfigurationList = 5AD543A51E88AD4B00749A75 /* Build configuration list for PBXProject "FetchCommitJson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD543A11E88AD4B00749A75;
+			productRefGroup = 5AD543AB1E88AD4B00749A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD543A91E88AD4B00749A75 /* FetchCommitJson */,
+				5AD543C21E88AD4B00749A75 /* FetchCommitJsonTests */,
+				5AD543CD1E88AD4B00749A75 /* FetchCommitJsonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD543A81E88AD4B00749A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD543BD1E88AD4B00749A75 /* LaunchScreen.storyboard in Resources */,
+				5AD543BA1E88AD4B00749A75 /* Assets.xcassets in Resources */,
+				5AD543B81E88AD4B00749A75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD543C11E88AD4B00749A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD543CC1E88AD4B00749A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD543A61E88AD4B00749A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD543EE1E89EACE00749A75 /* SpringBoot.m in Sources */,
+				5AD543E51E88AF0500749A75 /* CommitCell.m in Sources */,
+				5AD543B21E88AD4B00749A75 /* AppDelegate.m in Sources */,
+				5AD543E21E88ADAD00749A75 /* TableViewController.m in Sources */,
+				5AD543AF1E88AD4B00749A75 /* main.m in Sources */,
+				5AD543E81E88BA7900749A75 /* CommitObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD543BF1E88AD4B00749A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD543C81E88AD4B00749A75 /* FetchCommitJsonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD543CA1E88AD4B00749A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD543D31E88AD4B00749A75 /* FetchCommitJsonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD543C51E88AD4B00749A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD543A91E88AD4B00749A75 /* FetchCommitJson */;
+			targetProxy = 5AD543C41E88AD4B00749A75 /* PBXContainerItemProxy */;
+		};
+		5AD543D01E88AD4B00749A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD543A91E88AD4B00749A75 /* FetchCommitJson */;
+			targetProxy = 5AD543CF1E88AD4B00749A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AD543B61E88AD4B00749A75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD543B71E88AD4B00749A75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD543BB1E88AD4B00749A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD543BC1E88AD4B00749A75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD543D51E88AD4B00749A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AD543D61E88AD4B00749A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD543D81E88AD4B00749A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FetchCommitJson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abdulhaziq.FetchCommitJson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD543D91E88AD4B00749A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FetchCommitJson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abdulhaziq.FetchCommitJson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AD543DB1E88AD4B00749A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FetchCommitJsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abdulhaziq.FetchCommitJsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchCommitJson.app/FetchCommitJson";
+			};
+			name = Debug;
+		};
+		5AD543DC1E88AD4B00749A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FetchCommitJsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abdulhaziq.FetchCommitJsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchCommitJson.app/FetchCommitJson";
+			};
+			name = Release;
+		};
+		5AD543DE1E88AD4B00749A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FetchCommitJsonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abdulhaziq.FetchCommitJsonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FetchCommitJson;
+			};
+			name = Debug;
+		};
+		5AD543DF1E88AD4B00749A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FetchCommitJsonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abdulhaziq.FetchCommitJsonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FetchCommitJson;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD543A51E88AD4B00749A75 /* Build configuration list for PBXProject "FetchCommitJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD543D51E88AD4B00749A75 /* Debug */,
+				5AD543D61E88AD4B00749A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD543D71E88AD4B00749A75 /* Build configuration list for PBXNativeTarget "FetchCommitJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD543D81E88AD4B00749A75 /* Debug */,
+				5AD543D91E88AD4B00749A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD543DA1E88AD4B00749A75 /* Build configuration list for PBXNativeTarget "FetchCommitJsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD543DB1E88AD4B00749A75 /* Debug */,
+				5AD543DC1E88AD4B00749A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD543DD1E88AD4B00749A75 /* Build configuration list for PBXNativeTarget "FetchCommitJsonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD543DE1E88AD4B00749A75 /* Debug */,
+				5AD543DF1E88AD4B00749A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD543A21E88AD4B00749A75 /* Project object */;
+}
